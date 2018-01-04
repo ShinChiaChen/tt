@@ -1,0 +1,41 @@
+From 4c1ef15b6c4b051436be7d70786e0eeb83161eeb Mon Sep 17 00:00:00 2001
+From: "Shin.Chia.Chen" <006805@daaitv.com>
+Date: Thu, 4 Jan 2018 10:02:15 +0800
+Subject: [PATCH] =?UTF-8?q?=E7=AC=AC=E4=B8=89=E6=AC=A1?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ uu.txt | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+ create mode 100644 uu.txt
+
+diff --git a/uu.txt b/uu.txt
+new file mode 100644
+index 0000000..d8489d3
+--- /dev/null
++++ b/uu.txt
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html>
++<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
++<body>
++
++<div ng-app="myApp" ng-controller="myCtrl">
++{{ firstName + " " + lastName }}
++</div>
++
++<script>
++var app = angular.module("myApp", []);
++app.controller("myCtrl", function($scope) {
++    $scope.firstName = "John1";
++    $scope.lastName = "Doe";
++});
++</script>
++
++</body>
++</html>
+-- 
+2.15.1.windows.2
+

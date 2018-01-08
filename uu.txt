@@ -10,9 +10,12 @@
 <script>
 var app = angular.module("myApp", []);
 app.controller("myCtrl", function($scope) {
-    $scope.firstName = "John1";
+    $scope.firstName = "ju";
+
     $scope.lastName = "Doe";
-});ju
+});
+
+   
 </script>
 
 </body>
